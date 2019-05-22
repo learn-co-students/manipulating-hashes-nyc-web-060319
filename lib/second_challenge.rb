@@ -1,4 +1,5 @@
 def second_challenge
+	food_grouped = []
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
    vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -8,6 +9,14 @@ def second_challenge
 
   #code your solution here!
 
-  
+array = groceries.values
+array.flatten
+end 
+ 
+ 
 
-end
+	
+
+
+
+
