@@ -6,8 +6,13 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
+  to_order = []
   #code your solution here!
-
+  groceries.keys.each do |key|
+    groceries[key].each do |food|
+      to_order << food
+    end
+  end
   
-
+  to_order
 end
