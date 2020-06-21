@@ -6,8 +6,14 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
+  vals = groceries.values
+  toRet = []
+  vals.each do |arr|
+    arr.each do |val|
+      toRet << val
+    end
+  end
+  toRet
   
 
 end
